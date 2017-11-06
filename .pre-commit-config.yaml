@@ -1,0 +1,11 @@
+- repo: https://github.com/pre-commit/pre-commit-hooks/tree/master/pre_commit_hooks 
+  sha: 9ba5af45ce2d29b64c9a348a6fcff5553eea1f2c
+  hooks:
+    - id: check_json
+    - id: trailing_whitespace
+    - id: autopep8_wrapper
+    - id: check_merge_conflict
+    - id: check_yaml
+    - id: detect_aws_credentials
+    - id: detect_private_key
+    - id: flake8
